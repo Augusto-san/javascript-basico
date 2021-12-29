@@ -1,0 +1,18 @@
+body{
+	margin: auto;
+	width: 980px;
+	background-color: rgb(256,256,256);
+	color: black;
+	font: normal 20pt Arial;
+}
+
+.div-lampada{
+	display: block; /*https://www.w3.org/Style/Examples/007/center.en.html ou https://www.w3schools.com/css/css_align.asp*/
+	position: relative;
+	margin: auto;
+	width: min-content;
+}
+
+#img-lampada {
+
+}
