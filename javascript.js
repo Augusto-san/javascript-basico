@@ -10,5 +10,5 @@ var nome = window.prompt("Qual é o seu nome?")
 /*comentário de mais
 de uma linha*/
 
-document.getElementById("titulo").innerHTML = `Olá, $(nome)`;
+document.getElementById("titulo").innerHTML = "Olá, " + nome;
 
