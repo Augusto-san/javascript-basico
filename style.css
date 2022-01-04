@@ -13,6 +13,32 @@ body{
 	width: min-content;
 }
 
-#img-lampada {
+div#area{
+	margin: auto;
+	font: normal 20pt Arial;
+	background: rgb(42,139,42);
+	color: white;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+}
 
+input {
+	margin: 10px;
+	font: normal 18pt Arial;
+	width: 100px;
+}
+
+div#resultado{
+	margin: 20px auto;
+}
+
+div#soma-soma{
+	width: fit-content;
+	margin: auto;
+}
+
+#resultado>p {
+	text-align: center;
 }

@@ -6,7 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Meu primeiro programa...</title>
 
-    <script src="javascript.js"></script> <!-- CARREGANDO O JAVASCRIPT -->
+    <script src="javascript.js"></script> <!--CARREGANDO O JAVASCRIPT -->
 
     <link rel="stylesheet" href="style.css"> <!-- CARREGANDO O CSS -->
 
@@ -15,27 +15,37 @@
 	<body>
 		<h1 id="titulo">Olá, mundo!</h1>
 		<p>Parabéns! você se livrou da maldição ;)</p>
-		
-		
+				
 		<hr>
 
-		<p>Exemplo 1: Lâmpada</p>
+		<p><strong>Exercício 1:</strong> Lâmpada</p>
 
-		<div class="div-lampada">
-			<img id="img-lampada" src="imagens/apagada.jpg" onclick="document.getElementById('img-lampada').src='imagens/quebrada.jpg'">
-			<button onclick="document.getElementById('img-lampada').src='imagens/acesa.jpg'">Ascender</button>
-			<button onclick="document.getElementById('img-lampada').src='imagens/apagada.jpg'">Apagar</button>
+			<div class="div-lampada">
+				<img id="img-lampada" src="imagens/apagada.jpg" onclick="document.getElementById('img-lampada').src='imagens/quebrada.jpg'">
+				<button onclick="document.getElementById('img-lampada').src='imagens/acesa.jpg'">Ascender</button>
+				<button onclick="document.getElementById('img-lampada').src='imagens/apagada.jpg'">Apagar</button>
+			</div>
+
+		<hr>
+
+		<p><strong>Exercício 2:</strong> eventos DOM</p>
+			
+			<div id="area">
+				Clique aqui...
+			</div>		
+
+		<hr>
+
+	 	<p><strong>Exercício 3:</strong> Soma números</p>
+
+		<div id="soma-soma"> 
+			<input type="number" name="inp-num1" id="inp-num1"> <strong>+</strong>
+			<input type="number" name="inp-num2" id="inp-num2">
+			<input type="button" value="Somar" onclick="somar()">
+			<div id="resultado"><p>Resultado</p></div>
 		</div>
 
 		<hr>
-
-		<p>Exemplo 2: Soma números</p>
-
-		<div>
-			<p id="val-1"></p>
-			<p id="val-2"></p>
-		</div>
-
 
 	</body>
 </html>
