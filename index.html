@@ -18,7 +18,7 @@
 				
 		<hr>
 
-		<p><strong>Exercício 1:</strong> Lâmpada</p>
+		<p class="exercicio"><strong>Exercício 1:</strong> Lâmpada</p>
 
 			<div class="div-lampada">
 				<img id="img-lampada" src="imagens/apagada.jpg" onclick="document.getElementById('img-lampada').src='imagens/quebrada.jpg'">
@@ -28,21 +28,39 @@
 
 		<hr>
 
-		<p><strong>Exercício 2:</strong> eventos DOM</p>
-			
+		<p class="exercicio"><strong>Exercício 2:</strong> eventos DOM</p>
 			<div id="area">
 				Clique aqui...
 			</div>		
 
 		<hr>
 
-	 	<p><strong>Exercício 3:</strong> Soma números</p>
-
+	 	<p class="exercicio"><strong>Exercício 3:</strong> Soma números</p>
 		<div id="soma-soma"> 
 			<input type="number" name="inp-num1" id="inp-num1"> <strong>+</strong>
 			<input type="number" name="inp-num2" id="inp-num2">
 			<input type="button" value="Somar" onclick="somar()">
 			<div id="resultado"><p>Resultado</p></div>
+		</div>
+
+		<hr>
+
+	 	<p class="exercicio"><strong>Exercício 4:</strong> Condições</p>
+		<p class="pExplica">Digite a velocidade e clique em Verificar</p>
+		<div id="condic">
+			<input type="number" name="inpVelocidade" id="inpVelocidade">
+			<input type="button" value="Verificar" onclick="notifica()">
+			<p id="resVelocidade"></p>
+		</div>
+
+		<hr>
+
+	 	<p class="exercicio"><strong>Exercício 5:</strong> Verificador de Brasileiro</p>
+		<p class="pExplica">Em qual País você nasceu?</p>
+		<div id="divNacional"> 
+			<input type="text" name="inpNacional" id="inpNacional"> 
+			<input type="button" value="Descobrir" onclick="verificaNacional()">
+			<p id="pNacional"></p>
 		</div>
 
 		<hr>

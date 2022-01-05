@@ -50,5 +50,31 @@ de uma linha*/
 		var n2 = Number(num2.value)
 		var soma =	n1 + n2
 
-		resultado.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${soma}</strong>`
+		resultado.innerHTML = `O resultado é <strong>${soma}</strong>`
+	}
+
+	//EXERCÍCIO 4
+	//https://developer.mozilla.org/pt-BR/docs/Web/API/Document/write
+	function notifica(){
+		var vel = window.document.querySelector('input#inpVelocidade')
+
+		var nVel = Number(vel.value)
+
+		if (nVel > 60) {
+			resVelocidade.innerHTML = `Sua velocidade é de ${nVel} Km/h e está acima do permitido.`			
+		} else {
+			resVelocidade.innerHTML = `Parabéns, sua velocidade é de ${nVel} Km/h e está dentro do limite.`
+		}
+	}
+
+	//EXERCÍCIO 5
+	//https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input
+	function verificaNacional(){
+		var txtNacional = window.document.querySelector('input#inpNacional')
+
+		if (txtNacional.value == "Brasil" || "brasil") {
+			pNacional.innerText = "Brasileiro"
+		} else {
+			pNacional.innerText = "Xiiih! não é Brasileiro"
+		}
 	}
