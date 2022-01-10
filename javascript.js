@@ -114,6 +114,8 @@ de uma linha*/
 			case 6:
 			window.document.alert("Sábado")
 			break
+		}
 
+
+		pDia.innerText = "verDia"
 	}
-}
