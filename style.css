@@ -35,7 +35,7 @@ div#resultado{
 	text-align: center;
 }
 
-div#soma-soma, div#condic, div#divNacional{
+div#soma-soma, div#condic, div#divNacional, div#divDia{
 	width: fit-content;
 	margin: auto;
 }
@@ -48,7 +48,3 @@ div#soma-soma, div#condic, div#divNacional{
 	text-align: center;
 }
 
-#divDia{
-	margin: auto;
-    width: fit-content;
-}
