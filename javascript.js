@@ -85,18 +85,22 @@ de uma linha*/
 	function descobrirDia(){
 		var agora = new Date();
 		var verDia = agora.getDay();
+		var queDia = "";
 
 		switch(verDia){
 			case 0:
-			window.document.alert("Domingo")
+			//window.document.alert("Domingo")
+			queDia = "Domingo"
 			break
 
 			case 1:
-			window.document.alert("Segunda")
+			//window.document.alert("Segunda")
+			queDia = "Segunda"
 			break
 		
 			case 2:
-			window.document.alert("Terça")
+			//window.document.alert("Terça")
+			queDia = "Terça"
 			break
 
 			case 3:
@@ -117,5 +121,5 @@ de uma linha*/
 		}
 
 
-		pDia.innerText = "verDia"
+		alert(queDia)
 	}
