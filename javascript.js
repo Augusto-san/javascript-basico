@@ -75,6 +75,6 @@ de uma linha*/
 		if (txtNacional.value == "Brasil" || "brasil") {
 			pNacional.innerText = "Brasileiro"
 		} else {
-			pNacional.innerText = "Xiiih! não é Brasileiro"
+			pNacional.innerText = "Xiiih! você não é Brasileiro"
 		}
 	}
