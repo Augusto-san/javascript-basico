@@ -78,3 +78,19 @@ de uma linha*/
 			pNacional.innerText = "Xiiih! você não é Brasileiro"
 		}
 	}
+
+	//EXERCÍCIO 6
+	//
+
+	function verDia(){
+		var agora = new Date();
+		var verDia = agora.getDay();
+
+		switch(verDia){
+			case 0:
+			window.document.alert("Domingo")
+		}
+			case 1:
+			window.document.alert("Segunda")
+		}
+	}
