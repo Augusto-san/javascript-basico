@@ -95,24 +95,24 @@ de uma linha*/
 
 			case 1:
 			//window.document.alert("Segunda")
-			queDia = "Segunda"
+			queDia = "Segunda-Feira"
 			break
 		
 			case 2:
 			//window.document.alert("Terça")
-			queDia = "Terça"
+			queDia = "Terça-Feira"
 			break
 
 			case 3:
-			window.document.alert("Quarta")
+			window.document.alert("Quarta-Feira")
 			break
 
 			case 4:
-			ow.document.alert("Quinta")
+			ow.document.alert("Quinta-Feira")
 			break
 
 			case 5:
-			window.document.alert("Sexta")
+			window.document.alert("Sexta-Feira")
 			break
 
 			case 6:
@@ -121,5 +121,5 @@ de uma linha*/
 		}
 
 
-		alert(queDia)
+		alert(`Hoje é $(queDia)`)
 	}
