@@ -121,5 +121,5 @@ de uma linha*/
 		}
 
 
-		alert(`Hoje é $(queDia)`)
+		alert(`Hoje é ${queDia}`)
 	}
