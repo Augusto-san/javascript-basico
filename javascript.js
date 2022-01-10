@@ -103,4 +103,16 @@ de uma linha*/
 			window.document.alert("Quarta")
 			break
 
+						case 2:
+			ow.document.alert("Quinta")
+			break
+
+			case 2:
+			window.document.alert("Sexta")
+			break
+
+			case 2:
+			window.document.alert("Sábado")
+			break
+
 	}
