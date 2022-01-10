@@ -89,8 +89,18 @@ de uma linha*/
 		switch(verDia){
 			case 0:
 			window.document.alert("Domingo")
-		}
+			break
+
 			case 1:
 			window.document.alert("Segunda")
-		}
+			break
+		
+			case 2:
+			window.document.alert("Terça")
+			break
+
+			case 3:
+			window.document.alert("Quarta")
+			break
+
 	}
