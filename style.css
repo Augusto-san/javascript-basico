@@ -48,4 +48,7 @@ div#soma-soma, div#condic, div#divNacional{
 	text-align: center;
 }
 
-
+#divDia{
+	margin: auto;
+    width: fit-content;
+}
