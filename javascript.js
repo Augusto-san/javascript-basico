@@ -82,7 +82,7 @@ de uma linha*/
 	//EXERCÍCIO 6
 	//
 
-	function verDia(){
+	function descobrirDia(){
 		var agora = new Date();
 		var verDia = agora.getDay();
 
