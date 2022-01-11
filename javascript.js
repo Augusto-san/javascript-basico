@@ -94,29 +94,27 @@ de uma linha*/
 			break
 
 			case 1:
-			//window.document.alert("Segunda")
 			queDia = "Segunda-Feira"
 			break
 		
 			case 2:
-			//window.document.alert("Terça")
 			queDia = "Terça-Feira"
 			break
 
 			case 3:
-			window.document.alert("Quarta-Feira")
+			queDia = "Quarta-Feira"
 			break
 
 			case 4:
-			ow.document.alert("Quinta-Feira")
+			queDia = "Quinta-Feira"
 			break
 
 			case 5:
-			window.document.alert("Sexta-Feira")
+			queDia = "Sexta-Feira"
 			break
 
 			case 6:
-			window.document.alert("Sábado")
+			queDia = "Sábado"
 			break
 		}
 
