@@ -28,3 +28,7 @@ function carregar() {
 		window.document.body.style.background = '#2f003f'
 	}
 }
+
+function AutoRefresh() {
+	setTimeout("location.reload(true);",60000);
+}
