@@ -1,5 +1,5 @@
 # javascript-basico
-Esse repositório possui códigos básicos de javascript, escrevi esses códigos enquanto estudava tal linguagem. 
+Exercícios para treinar javascript. 
 
 - Link de acesso: https://augusto-san.github.io/javascript-basico/
 - Sinta-se livre para copiar os códigos e utilizá-los da forma que melhor lhe atender
