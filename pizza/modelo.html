@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Aceita pizza?</title>
+
+    <script src="javascript.js"></script> <!--CARREGANDO O JAVASCRIPT -->
+
+    <link rel="stylesheet" href="estilo.css"> <!-- CARREGANDO O CSS -->
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Pizzaria do JavaScript</h1>
+		</header>
+
+		<section>
+			<div id="div-pizza">
+				<img id="img-pizza" src="pizza.png" alt="pizza">
+			</div>
+			<div></div>			
+		</section>
+
+		<br>
+
+		<!-- Armazenar informações em variáveis https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Variables -->
+		<p id="frase">Quantos pedaços você quer?</p>
+		<div id="div-botao"> 
+			<input type="number" name="inpNumero" id="inpNumero">
+			<input type="button" value="Pegar" onclick="removePedaco()">
+		</div>
+
+		<footer>
+			<p>&copy; Augusto César</p>
+		</footer>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
