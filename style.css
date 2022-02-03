@@ -35,7 +35,7 @@ div#resultado{
 	text-align: center;
 }
 
-div#soma-soma, div#condic, div#divNacional, div#divDia{
+div#soma-soma, div#condic, div#divNacional, div#divDia, div#divPizza{
 	width: fit-content;
 	margin: auto;
 }
