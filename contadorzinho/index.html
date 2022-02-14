@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Contadorzinho</title>
+
+    <script src="javascript.js"></script> <!--CARREGANDO O JAVASCRIPT -->
+
+    <link rel="stylesheet" href="estilo.css"> <!-- CARREGANDO O CSS -->
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Contador Controlado JS</h1>
+		</header>
+
+		<section>
+			<div>
+				<p><strong>Início:</strong> <input type="number" name="idInicio" id="idInicio"></p>
+				<p><strong>Fim:</strong> <input type="number" name="idFim" id="idFim"></p>
+				<p><strong>Salto:</strong> <input type="number" name="idPasso" id="idPasso"></p>
+			<input id="Bcontar" type="button" value="Contar" onclick="contaconta()">
+			</div>
+
+			<hr>
+
+			<p id="Ppreparando">Preparando Contagem...</p>
+			
+			<div id="divContadora">
+
+			</div>			
+		</section>
+
+		<footer>
+			<p>&copy; Augusto César</p>
+		</footer>
+
+		<script src="script.js"></script>
+
+	</body>
+</html>
